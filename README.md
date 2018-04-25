@@ -1,6 +1,6 @@
 # 오토핫키 (AutoHotkey)
 
-> 사용하고 있는 AutoHotkey Scripts를 공대합니다.
+> 사용하고 있는 AutoHotkey Scripts를 공개합니다.
 > 사용법은 지속적으로 업데이트할 예정입니다.
 
 
@@ -21,7 +21,7 @@
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_04DF619B8923796E3FFBF17D61396578AC60E0C1E8DB537966C7366DBA71BB55_1524638455112_2.png)
 
 2. 컴파일
-- .ahk 파일 우클릭 → Compile Scropt
+- .ahk 파일 우클릭 → Compile Script
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_04DF619B8923796E3FFBF17D61396578AC60E0C1E8DB537966C7366DBA71BB55_1524638542330_3.png)
 
 
