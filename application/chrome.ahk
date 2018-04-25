@@ -15,4 +15,11 @@ LWIN & f::
 	Run, http://www.google.com/search?q=%clipboard%
 return
 
+; F6키 눌렀을 때, 주소저장
+F6::
+	Send, {F6}
+	Sleep 10
+	Send, ^c
+return
+
 #ifWinActive
