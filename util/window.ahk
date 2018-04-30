@@ -28,7 +28,7 @@ Send, #{PRINTSCREEN}
 Run, mspaint.exe
 WinWaitActive ahk_class MSPaintApp
 {
-	Sleep,500
+	Sleep,50
 	Send, ^v
 }
 clipboard = %clipsave%

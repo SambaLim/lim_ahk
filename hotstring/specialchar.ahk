@@ -63,3 +63,33 @@ return
 ::\pi::
 SendInput, π
 return
+
+; 특수문자 추가 (2018.04.30 / 도형 + 괄호)
+
+::\ws::
+SendInput, ☆
+return
+
+::\bs::
+SendInput, ★
+return
+
+::\wh::
+SendInput, ♡
+return
+
+::\bh::
+SendInput, ♥
+return
+
+::\clover::
+SendInput, ♧
+return
+
+::\open::
+SendInput, 「
+return
+
+::\close::
+SendInput, 」
+return

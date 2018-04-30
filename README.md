@@ -42,7 +42,51 @@
 
 
 ----------
+## 98. 기능 정리표
+- 기능
+| 디렉토리                     | 단축키        | 내용            |
+| ------------------------ | ---------- | ------------- |
+| application/chrome.ahk   | 윈도우 + f    | 해당내용 구글에서 찾기  |
+|                          | F6         | 주소 자동저장       |
+| hotstring/autostring.ahk | Alt + d    | `YYYYMMDD` 출력 |
+| util/window.ahk          | 윈도우 + n    | 메모장 띄우기       |
+|                          | 윈도우 + w    | 바탕화면 띄우기      |
+|                          | F7         | 그림판 띄우기       |
+|                          | `          | 상위 폴더로 이동     |
+|                          | 윈도우키 + Del | 쓰래기통 비우기      |
+|                          | PrtScn     | 그림판에 스크린샷 넣기  |
+|                          | Pause      | 자동로그아웃        |
+
+- 특수문자 (hotstring/specialchar.ahk)
+| 입력문자    | 출력문자 |
+| ------- | ---- |
+| \ - >   | →    |
+| \ < -   | ←    |
+| \down   | ↓    |
+| \up     | ↑    |
+| \<>     | ↔    |
+| \.      | ·    |
+| \c      | ℃    |
+| \alpha  | α    |
+| \beta   | β    |
+| \gamma  | γ    |
+| \theta  | θ    |
+| \mu     | μ    |
+| \tau    | τ    |
+| \pi     | π    |
+| \ws     | ☆    |
+| \bs     | ★    |
+| \wh     | ♡    |
+| \bh     | ♥    |
+| \clover | ♧    |
+| \open   | 「    |
+| \close  | 」    |
+
+
+
+----------
 ## 99. 참조링크
 - 오토핫키 포럼 : http://www.autohotkey.co.kr/
 - AutoCorrect : https://www.autohotkey.com/download/AutoCorrect.ahk
 - 비밀의 화원 : http://secretgd.tistory.com/270?category=713787
+
