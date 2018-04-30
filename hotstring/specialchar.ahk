@@ -30,6 +30,10 @@ return
 SendInput, ·{Space}
 return
 
+::\c::
+SendInput, ℃
+return
+
 ; 그리스문자
 
 ::\alpha::
