@@ -71,7 +71,7 @@
 | ------------------------ | ---------- | ------------- |
 | application/chrome.ahk   | 윈도우 + f    | 해당내용 구글에서 찾기  |
 |                          | F6         | 주소 자동저장       |
-| hotstring/autostring.ahk | Alt +  d    | `YYYYMMDD` 출력 |
+| hotstring/autostring.ahk | Alt + Shift + d    | `YYYYMMDD` 출력 |
 | util/window.ahk          | 윈도우 + n    | 메모장 띄우기       |
 |                          | 윈도우 + w    | 바탕화면 띄우기      |
 |                          | F7         | 그림판 띄우기       |
