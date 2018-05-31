@@ -7,7 +7,9 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ;^ : Ctrl
 ;! : Alt
 
-; Alt + d : 자동날짜입력
-!+d::
-SendInput %A_YYYY%%A_MM%%A_DD%
-Return
+#ifWinActive ahk_class XLMAIN
+
+; F1키 미사용
+F1::return
+	
+#ifWinActive

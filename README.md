@@ -40,10 +40,36 @@
 
   `한자`키를 입력했을경우 Key의 값은 `VK19SC1F1` 인 것을 찾아볼 수 있습니다.
 
+<<<<<<< HEAD
+=======
+  
+----------
+## 04. 부팅시 자동실행 (Window)
+1. `윈도우키` + `R` 을 눌러 실행을 열고 옆 빈칸에 `shell:startup`을 입력합니다.
+![](https://d2mxuefqeaa7sj.cloudfront.net/s_04DF619B8923796E3FFBF17D61396578AC60E0C1E8DB537966C7366DBA71BB55_1527261223600_1.png)
+
+2. `확인` 버튼을 누릅니다.
+![](https://d2mxuefqeaa7sj.cloudfront.net/s_04DF619B8923796E3FFBF17D61396578AC60E0C1E8DB537966C7366DBA71BB55_1527261308624_2.png)
+
+3. 오토핫키 폴더를 실행합니다.
+![](https://d2mxuefqeaa7sj.cloudfront.net/s_04DF619B8923796E3FFBF17D61396578AC60E0C1E8DB537966C7366DBA71BB55_1527261816966_3.png)
+
+4. .ahk를 컴파일 해줍니다.(02. 생성, 컴파일 참고)
+
+5. 우클릭 후, `바로 가기 만들기` 를 클릭하여 바로 가기를 생성합니다.
+![](https://d2mxuefqeaa7sj.cloudfront.net/s_04DF619B8923796E3FFBF17D61396578AC60E0C1E8DB537966C7366DBA71BB55_1527262032036_4.png)
+
+6. 생성한 바로가기를 ②에서 실행한 `시작프로그램` 폴더로 옮겨줍니다.
+![](https://d2mxuefqeaa7sj.cloudfront.net/s_04DF619B8923796E3FFBF17D61396578AC60E0C1E8DB537966C7366DBA71BB55_1527262112014_5.png)
+>>>>>>> ec126b3ac02152eefecb593be3dbe0214b544593
 
 ----------
 ## 98. 기능 정리표
 - 기능
+<<<<<<< HEAD
+=======
+
+>>>>>>> ec126b3ac02152eefecb593be3dbe0214b544593
 | 디렉토리                     | 단축키        | 내용            |
 | ------------------------ | ---------- | ------------- |
 | application/chrome.ahk   | 윈도우 + f    | 해당내용 구글에서 찾기  |
@@ -56,8 +82,19 @@
 |                          | 윈도우키 + Del | 쓰래기통 비우기      |
 |                          | PrtScn     | 그림판에 스크린샷 넣기  |
 |                          | Pause      | 자동로그아웃        |
+<<<<<<< HEAD
 
 - 특수문자 (hotstring/specialchar.ahk)
+=======
+| application/hwp.ahk      | ALT + ↑    | 글자크기 키우기      |
+|                          | ALT + ↓    | 글자크기 줄이기      |
+|                          | ALT + b    | 글자 굵게         |
+|                          | ALT + i    | 글자 기울기        |
+|                          | ALT + u    | 글자 밑줄          |
+
+- 특수문자 (hotstring/specialchar.ahk)
+
+>>>>>>> ec126b3ac02152eefecb593be3dbe0214b544593
 | 입력문자    | 출력문자 |
 | ------- | ---- |
 | \ - >   | →    |
@@ -81,6 +118,14 @@
 | \clover | ♧    |
 | \open   | 「    |
 | \close  | 」    |
+<<<<<<< HEAD
+=======
+| \o1     | ①     |
+| \o2     | ②     |
+| \o3     | ③     |
+| \o4     | ④     |
+| \o5     | ⑤     |
+>>>>>>> ec126b3ac02152eefecb593be3dbe0214b544593
 
 
 

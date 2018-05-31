@@ -93,3 +93,25 @@ return
 ::\close::
 SendInput, 」
 return
+
+; ① 숫자 특수문자 추가
+
+::\o1::
+SendInput, ①
+return
+
+::\o2::
+SendInput, ②
+return
+
+::\o3::
+SendInput, ③
+return
+
+::\o4::
+SendInput, ④
+return
+
+::\o5::
+SendInput, ⑤
+return
