@@ -3,6 +3,7 @@
 ; v0.2 (2018.04.02) : 무시항목 추가, 구글에서 찾기, 자동날짜입력, 자동로그아웃
 ; v0.3 (2018.04.25) : 특수문자 자동입력, url주소 복사
 ; v0.4 (2018.05.26) : 한글 단축키 변환 (한컴오피스 한글 2010 사용), 특수문자 추가 (ex. ①)
+; v0.5 (2018.06.07) : 소괄호, 중괄호, 큰따옴표 추가 / cmd 리눅스 명령어 변환 추가
 
 ;application
 #include .\application\chrome.ahk
@@ -10,11 +11,14 @@
 #include .\application\excel.ahk
 
 ;hotstring
-#include .\hotstring\autostring.ahk
-#include .\hotstring\specialchar.ahk
+#include .\hotstring\autoString.ahk
+#include .\hotstring\specialChar.ahk
+#include .\hotstring\autoInsert.ahk
 
-;util
-#include .\util\window.ahk
+;window
+#include .\window\function.ahk
+#include .\window\shortcut.ahk
+#include .\window\cmd.ahk
 
 ;# : 윈도우키
 ;^ : Ctrl

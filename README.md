@@ -72,16 +72,20 @@
 | application/chrome.ahk   | 윈도우 + f    | 해당내용 구글에서 찾기  |
 |                          | F6         | 주소 자동저장       |
 | hotstring/autostring.ahk | Alt + Shift + d    | `YYYYMMDD` 출력 |
-| util/window.ahk          | 윈도우 + n    | 메모장 띄우기       |
+| hotstring/autoInsert.ahk | (    | 소괄호 여닫고 사이에 포인트 |
+| 						   | {    | 중괄호 여닫고 사이에 포인트 |
+| 						   | "    | 큰따옴표 여닫고 사이에 포인트 |
+| window/shortcut.ahk          | 윈도우 + n    | 메모장 띄우기       |
 |                          | 윈도우 + w    | 바탕화면 띄우기      |
 |                          | F7         | 그림판 띄우기       |
-|                          | `          | 상위 폴더로 이동     |
+| window/function.ahk      | `          | 상위 폴더로 이동     |
 |                          | 윈도우키 + Del | 쓰래기통 비우기      |
 |                          | PrtScn     | 그림판에 스크린샷 넣기  |
 |                          | Pause      | 자동로그아웃        |
-
-- 특수문자 (hotstring/specialchar.ahk)
-
+| window/cmd.ahk           | ls         | dir (파일목록보기)     |
+|                          | clear      | cls (창비우기)        |
+|                          | ESC      | Ctrl + C (취소)        |
+|                          | pwd      | chdir (현재위치보기)        |
 | application/hwp.ahk      | ALT + ↑    | 글자크기 키우기      |
 |                          | ALT + ↓    | 글자크기 줄이기      |
 |                          | ALT + b    | 글자 굵게         |

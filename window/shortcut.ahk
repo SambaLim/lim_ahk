@@ -7,7 +7,6 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ;^ : Ctrl
 ;! : Alt
 
-; Alt + d : 자동날짜입력
-!+d::
-	SendInput, %A_YYYY%%A_MM%%A_DD%
-	return
+#n::Run Notepad
+#w::Run C:\Users\limsu\Desktop
+F7::Run C:\Windows\System32\mspaint.exe

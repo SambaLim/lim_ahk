@@ -7,36 +7,33 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ;^ : Ctrl
 ;! : Alt
 
-#n::Run Notepad
-#w::Run C:\Users\limsu\Desktop
-F7::Run C:\Windows\System32\mspaint.exe
-
 ; ` : 상위 폴더로 이동
 #IfWinActive, ahk_class CabinetWClass
-`::Send !{Up} 
+	`::Send !{Up}
+	return	
 #IfWinActive
-return
 
 ; 윈도우키 + Del : 쓰래기통 비우기
-#Del::FileRecycleEmpty ; win + del
-return
+#Del::
+	FileRecycleEmpty ; win + del
+	return
 
 ; PrtScn : 자동으로 그림판에 붙여넣기
 PrintScreen::
-clipsave = %clipboard%
-Send, #{PRINTSCREEN}
-Run, mspaint.exe
-WinWaitActive ahk_class MSPaintApp
-{
-	Sleep,50
-	Send, ^v
-}
-clipboard = %clipsave%
-return
-
+	clipsave = %clipboard%
+	Send, #{PRINTSCREEN}
+	Run, mspaint.exe
+	WinWaitActive ahk_class MSPaintApp
+	{
+		Sleep,50
+		Send, ^v
+	}
+	clipboard = %clipsave%
+	return
+	
 ; Pause : 자동로그아웃
 Pause::
-DllCall("LockWorkStation")
-Sleep, 2000
-SendMessage,0x112,0xF170,2,,Program Manager
-return
+	DllCall("LockWorkStation")
+	Sleep, 2000
+	SendMessage,0x112,0xF170,2,,Program Manager
+	return
