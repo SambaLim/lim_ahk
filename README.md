@@ -39,9 +39,6 @@
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_04DF619B8923796E3FFBF17D61396578AC60E0C1E8DB537966C7366DBA71BB55_1525047155754_6.png)
 
   `한자`키를 입력했을경우 Key의 값은 `VK19SC1F1` 인 것을 찾아볼 수 있습니다.
-
-<<<<<<< HEAD
-=======
   
 ----------
 ## 04. 부팅시 자동실행 (Window)
@@ -61,7 +58,6 @@
 
 6. 생성한 바로가기를 ②에서 실행한 `시작프로그램` 폴더로 옮겨줍니다.
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_04DF619B8923796E3FFBF17D61396578AC60E0C1E8DB537966C7366DBA71BB55_1527262112014_5.png)
->>>>>>> ec126b3ac02152eefecb593be3dbe0214b544593
 
 ----------
 ## 98. 기능 정리표
