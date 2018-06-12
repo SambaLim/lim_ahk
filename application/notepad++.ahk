@@ -7,24 +7,18 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ;^ : Ctrl
 ;! : Alt
 
-; 괄호를 열었을 때, 자동으로 괄호를 닫고 괄호안으로 들어가도록 하는 ahk
+#ifWinActive ahk_class Notepad++
 
-; 소괄호 ()
-(::
-	SendInput, (
-	SendInput, )
-	Send, {Left}
+; Ctrl + ` : 한줄 복사하기
+^`::
+	Send, {End}
+	Sleep 30
+	Send, +{Up}
+	Sleep 30
+	Send, +{Right}
+	Sleep 50
+	Send, ^c
+	Sleep 50
 	return
 
-; 중괄호 {}
-{::
-	SendInput, +{VKDBSC01A}
-	SendInput, +{VKDDSC01B}
-	Send, {Left}
-	return
-
-; 쌍 따옴표
-"::
-	SendInput, ""
-	Send, {Left}
-	return
+#IfWinActive

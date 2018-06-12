@@ -5,6 +5,8 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 ; http://www.autohotkey.co.kr/cgi/board.php?bo_table=script&wr_id=2460
 ; 특수문자
+; 특수문자 추가 (2018.04.30 / 도형 + 괄호)
+; 특수문자 추가 (2018.06.11 / 람다 + 괄호)
 
 ::\->::
 SendInput, →{Space}
@@ -48,6 +50,10 @@ return
 SendInput, γ
 return
 
+::\lamda::
+SendInput, λ
+return
+
 ::\theta::
 SendInput, θ
 return
@@ -63,8 +69,6 @@ return
 ::\pi::
 SendInput, π
 return
-
-; 특수문자 추가 (2018.04.30 / 도형 + 괄호)
 
 ::\ws::
 SendInput, ☆
@@ -86,12 +90,16 @@ return
 SendInput, ♧
 return
 
-::\open::
+::\op::
 SendInput, 「
+SendInput, 」
+Send, {Left}
 return
 
-::\close::
-SendInput, 」
+::\2op::
+SendInput, 『
+SendInput, 』
+Send, {Left}
 return
 
 ; ① 숫자 특수문자 추가
