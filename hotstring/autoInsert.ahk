@@ -28,3 +28,9 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 	SendInput, ""
 	Send, {Left}
 	return
+
+; 따옴표
+:*:'::`'`'{Left}
+
+; 대괄호
+:*:[::`[`]{Left}
