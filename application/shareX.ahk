@@ -7,21 +7,9 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ;^ : Ctrl
 ;! : Alt
 
-#ifWinActive ahk_class XLMAIN
+#ifWinActive ahk_exe ShareX.exe
 
-; F1키 미사용
-F1::return
+	; F8 : ShareX 실행하기
+	F8::Run C:\Program Files\ShareX\ShareX.exe
 
-; 칸을 클릭 + Ctrl + ` → 칸 내용 복사
-^`::
-	SendInput, {F2}
-	Sleep 50
-	SendInput, +{Home}
-	Sleep 50
-	SendInput, ^c
-	Sleep 50
-	SendInput, {Esc}
-	return
-
-	
 #ifWinActive

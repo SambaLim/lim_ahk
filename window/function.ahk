@@ -17,19 +17,6 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 #Del::
 	FileRecycleEmpty ; win + del
 	return
-
-; PrtScn : 자동으로 그림판에 붙여넣기
-PrintScreen::
-	clipsave = %clipboard%
-	Send, #{PRINTSCREEN}
-	Run, mspaint.exe
-	WinWaitActive ahk_class MSPaintApp
-	{
-		Sleep,50
-		Send, ^v
-	}
-	clipboard = %clipsave%
-	return
 	
 ; Pause : 자동로그아웃
 Pause::
