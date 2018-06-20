@@ -68,9 +68,11 @@
 | application/chrome.ahk   | 윈도우 + f    | 해당내용 구글에서 찾기  |
 |                          | F6         | 주소 자동저장       |
 | hotstring/autostring.ahk | Alt + Shift + d    | `YYYYMMDD` 출력 |
-| hotstring/autoInsert.ahk | (    | 소괄호 여닫고 사이에 포인트 |
-| 						   | {    | 중괄호 여닫고 사이에 포인트 |
-| 						   | "    | 큰따옴표 여닫고 사이에 포인트 |
+| hotstring/autoInsert.ahk | ()    | 소괄호 여닫고 사이에 포인트 |
+| 						   | {}    | 중괄호 여닫고 사이에 포인트 |
+| 						   | []    | 대괄호 여닫고 사이에 포인트 |
+| 						   | ""    | 큰따옴표 여닫고 사이에 포인트 |
+| 						   | ''    |  여닫고 사이에 포인트 |
 | window/shortcut.ahk          | 윈도우 + n    | 메모장 띄우기       |
 |                          | 윈도우 + w    | 바탕화면 띄우기      |
 |                          | F7         | 그림판 띄우기       |
