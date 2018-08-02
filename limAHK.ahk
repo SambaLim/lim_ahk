@@ -19,6 +19,7 @@
 #include .\hotstring\autoString.ahk
 #include .\hotstring\specialChar.ahk
 #include .\hotstring\autoInsert.ahk
+#include .\hotstring\autoCorrect.ahk
 
 ;window
 #include .\window\function.ahk

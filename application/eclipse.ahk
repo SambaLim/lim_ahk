@@ -15,4 +15,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 #u::Send ^!u
 ; SVN Synchronize
 #s::Send ^!s
+
+; Open Resource without Shift
+^r::Send ^+r
 #if
