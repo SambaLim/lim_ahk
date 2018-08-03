@@ -2,63 +2,28 @@
 ; #Warn  ; Enable warnings to assist with detecting common errors.
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
-
 ;------------------------------------------------------------------------------
-; 잘못 입력하는 오타들을 자동으로 수정해주는 곳
-; 알파벳 순서로 나열
+; VS Code AHK 스크립트
 ;------------------------------------------------------------------------------
-; A
 
-; B
+;# : 윈도우키
+;^ : Ctrl
+;! : Alt
 
-; C
-:*:corrcet::correct
+#ifWinActive ahk_exe Code.exe
 
-; D
+; Extension 실행하기 [윈도우 + x]
+#x::^+x
 
-; E
+; 파일 탐색기로 열기 [Alt + r]
+!r::!+r
 
-; F
-:*:fracne::france
-; G
+; 파일 자동실행
+#`::
+	SendInput, ^+e
+	Sleep 50
+	SendInput, !+r
+	Sleep 70
+	SendInput, {Enter}
 
-; H
-
-; I
-:*:inage::image
-
-; J
-
-; K
-
-; L
-
-; M
-
-; N
-
-; O
-
-; P
-
-; Q
-:*:qutoe::quote
-
-; R
-
-; S
-
-; T
-:*:ture::true
-
-; U
-
-; V
-
-; W
-
-; X
-
-; Y
-
-; Z
+#ifWinActive
