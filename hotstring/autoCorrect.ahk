@@ -13,6 +13,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 ; C
 :*:corrcet::correct
+:*:commnet::comment
 
 ; D
 
