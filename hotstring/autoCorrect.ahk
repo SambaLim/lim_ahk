@@ -8,6 +8,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ; 알파벳 순서로 나열
 ;------------------------------------------------------------------------------
 ; A
+:*:agian::again
 
 ; B
 
