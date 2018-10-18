@@ -8,5 +8,5 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ;! : Alt
 
 #n::Run Notepad
-#w::Run C:\Users\limsu\Desktop
+#w::Run C:\Users\Lim\Desktop
 F7::Run C:\Windows\System32\mspaint.exe
