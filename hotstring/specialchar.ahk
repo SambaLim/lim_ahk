@@ -38,6 +38,14 @@ return
 SendInput, ℃
 return
 
+::\mm::
+SendInput, ㎜
+return
+
+::\m2::
+SendInput, ㎡
+return
+
 ; 그리스문자
 
 ::\alpha::
