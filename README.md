@@ -3,16 +3,14 @@
 > 사용하고 있는 AutoHotkey Scripts를 공개합니다.
 > 사용법은 지속적으로 업데이트할 예정입니다.
 
-
 ----------
 ## 01. 설치
 1. AutoHotkey 다운로드 사이트로 이동하여 Installer 다운로드
-  https://autohotkey.com/download/
+    https://autohotkey.com/download/
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_04DF619B8923796E3FFBF17D61396578AC60E0C1E8DB537966C7366DBA71BB55_1524638177277_1.png)
 
 2. 다운받은 AutoHotkey_1.1.28.02_setup.exe 를 실행하여 설치
 - Express Installation → Exit
-
 
 ----------
 ## 02. 생성, 컴파일
@@ -39,7 +37,7 @@
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_04DF619B8923796E3FFBF17D61396578AC60E0C1E8DB537966C7366DBA71BB55_1525047155754_6.png)
 
   `한자`키를 입력했을경우 Key의 값은 `VK19SC1F1` 인 것을 찾아볼 수 있습니다.
-  
+
 ----------
 ## 04. 부팅시 자동실행 (Window)
 1. `윈도우키` + `R` 을 눌러 실행을 열고 옆 빈칸에 `shell:startup`을 입력합니다.
@@ -120,6 +118,9 @@
 | \o3     | ③     |
 | \o4     | ④     |
 | \o5     | ⑤     |
+| a/.. | ä |
+| o/.. | ö |
+| u/.. | ü |
 
 
 

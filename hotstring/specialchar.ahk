@@ -136,3 +136,17 @@ return
 ::\o5::
 SendInput, ⑤
 return
+
+; 독일어 추가
+
+::a/..::
+SendInput, ä
+return
+
+::o/..::
+SendInput, ö
+return
+
+::u/..::
+SendInput, ü
+return
