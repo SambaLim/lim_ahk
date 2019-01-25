@@ -44,12 +44,12 @@ Set_Absolutely_English(param = "")
 
 #ifWinActive ahk_exe chrome.exe
 
-:*:/tod::    
+:*:\tod::    
     Set_Absolutely_English("<todo></todo>")
     Send {Left 7}
     return
 
-:*:/tmd::    
+:*:\tmd::    
     Set_Absolutely_English("<todo @성호></todo>")
     Send {Left 7}
     return
