@@ -7,9 +7,5 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ;^ : Ctrl
 ;! : Alt
 
-#ifWinActive ahk_exe ShareX.exe
-
-	; F8 : ShareX 실행하기
-	F8::Run C:\Program Files\ShareX\ShareX.exe
-
-#ifWinActive
+; F8 : ShareX 실행하기
+F8::Run C:\Program Files\ShareX\ShareX.exe
