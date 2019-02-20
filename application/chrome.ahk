@@ -22,4 +22,8 @@ F6::
 	Send, ^c
 return
 
+::\md::
+SendInput, markdown-body
+return
+
 #ifWinActive
