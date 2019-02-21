@@ -22,6 +22,8 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 ; F
 :*:fracne::france
+:*:flase::false
+
 ; G
 
 ; H
