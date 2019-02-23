@@ -100,6 +100,10 @@ return
 SendInput, ♧
 return
 
+::\degree::
+SendInput, °
+return
+
 ::\op::
 SendInput, 「
 SendInput, 」
