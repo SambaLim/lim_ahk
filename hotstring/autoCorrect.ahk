@@ -44,6 +44,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ; O
 
 ; P
+:*:pacakge::package
 
 ; Q
 :*:qutoe::quote
