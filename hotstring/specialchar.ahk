@@ -104,6 +104,10 @@ return
 SendInput, °
 return
 
+::\plma::
+SendInput, ±
+return
+
 ::\op::
 SendInput, 「
 SendInput, 」
