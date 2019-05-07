@@ -18,6 +18,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 :*:clac::calc
 
 ; D
+:*:devleope::develope
 
 ; E
 
@@ -31,6 +32,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 ; I
 :*:inage::image
+:*:isntall::install
 
 ; J
 
