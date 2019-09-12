@@ -80,6 +80,10 @@ return
 SendInput, π
 return
 
+::/^2::
+SendInput, ²
+return
+
 ::\ws::
 SendInput, ☆
 return
@@ -98,6 +102,10 @@ return
 
 ::\clover::
 SendInput, ♧
+return
+
+::\smile::
+SendInput, ☺
 return
 
 ::\degree::
@@ -143,6 +151,22 @@ return
 
 ::\o5::
 SendInput, ⑤
+return
+
+::\o6::
+SendInput, ⑥
+return
+
+::\o7::
+SendInput, ⑦
+return
+
+::\o8::
+SendInput, ⑧
+return
+
+::\o9::
+SendInput, ⑨
 return
 
 ; 독일어 추가
