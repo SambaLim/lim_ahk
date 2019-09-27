@@ -19,8 +19,3 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 	return
 	
 ; Pause : 자동로그아웃
-Pause::
-	DllCall("LockWorkStation")
-	Sleep, 2000
-	SendMessage,0x112,0xF170,2,,Program Manager
-	return
